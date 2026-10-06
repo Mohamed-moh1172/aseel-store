@@ -50,7 +50,7 @@ export function ProductCard({ product }: { product: Product }) {
             aria-label={`أضف ${product.nameAr} للسلة`}
           >
             <ShoppingBag className="size-4" />
-            أضف
+            مرحبا أضف
           </Button>
         </div>
       </div>
