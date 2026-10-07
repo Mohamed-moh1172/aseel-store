@@ -31,7 +31,7 @@ export function CartDrawer() {
         <div className="flex-1 overflow-y-auto px-5 py-4">
           {lines.length === 0 ? (
             <div className="py-10 text-center">
-              <p className="text-muted">سلتك فارغة حالياً</p>
+              <p className="text-muted">سلة التسوق فارغة حالياًاً</p>
               <Button className="mt-4" onClick={() => setDrawer(false)} asChild>
                 <Link to="/">تسوّق الآن</Link>
               </Button>
